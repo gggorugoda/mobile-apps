@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="gggorugoda が公開しているモバイルアプリの紹介ページです。">
+    <meta property="og:title" content="gggorugoda Mobile Apps">
+    <meta property="og:description" content="公開中のモバイルアプリをまとめた公式ランディングページ。">
+    <meta property="og:type" content="website">
+    <title>gggorugoda Mobile Apps</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="gggorugoda Mobile Apps">
+        <img class="brand-logo" src="assets/team-logo.png" alt="ggg-apps ロゴ">
+        <span>
+          <span class="brand-title">ggg-apps</span>
+          <span class="brand-subtitle">Mobile Apps</span>
+        </span>
+      </a>
+      <a class="header-link" href="https://play.google.com/store/apps/dev?id=5883030652980727538">Google Play</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Published Android apps</p>
+          <h1 id="hero-title">小さく遊べて、ちゃんと残る。</h1>
+          <p class="hero-lead">
+            gggorugoda の公開済みモバイルアプリを集めたページです。
+            Play Console で製品版になったものだけを掲載しています。
+          </p>
+        </div>
+        <div class="hero-media" id="hero-media" aria-hidden="true"></div>
+      </section>
+
+      <section class="apps-section" aria-labelledby="apps-title">
+        <div class="section-heading">
+          <p class="eyebrow">Now available</p>
+          <h2 id="apps-title">公開中のアプリ</h2>
+        </div>
+        <div id="apps" class="apps-grid"></div>
+        <p id="empty-state" class="empty-state" hidden>現在、公開済みとして掲載できるアプリはありません。</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 gggorugoda</span>
+      <a href="https://gggorugoda.github.io/ggg-apps-policy/privacyPolicy/">Privacy Policy</a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

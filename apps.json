@@ -1,0 +1,63 @@
+{
+  "lastCheckedAt": "2026-06-14T23:30:00+09:00",
+  "source": "Google Play Console app list",
+  "apps": [
+    {
+      "id": "kuma-river",
+      "name": "くまリバー",
+      "packageName": "game.kumariver.ggg.jp.net",
+      "status": "製品版",
+      "published": true,
+      "updatedAt": "2026年6月12日",
+      "tagline": "鮭は1本指、人は2本指。60秒で判断するクマのスコアアタック。",
+      "description": "川沿いに立つクマを操作して、流れてくる鮭を捕まえ、人は助けましょう。終盤は川の流れが速くなり、瞬時の判断がさらに大切になります。",
+      "category": "カジュアルゲーム",
+      "icon": "assets/kuma-river/icon.jpg",
+      "feature": "assets/kuma-river/feature.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=game.kumariver.ggg.jp.net",
+      "screenshots": [
+        "assets/kuma-river/screenshots/01_start.jpg",
+        "assets/kuma-river/screenshots/02_salmon.jpg",
+        "assets/kuma-river/screenshots/03_rescue.jpg",
+        "assets/kuma-river/screenshots/04_dodge.jpg"
+      ],
+      "highlights": [
+        "鮭を捕まえ、人は助ける直感タップ",
+        "弾をジャンプで回避する一瞬の判断",
+        "60秒で遊べる短時間スコアアタック"
+      ]
+    },
+    {
+      "id": "otedama-master",
+      "name": "お手玉マスター",
+      "packageName": "otedamamaster.ggg.jp.net",
+      "status": "未公開 / 内部テスト / 審査中",
+      "published": false,
+      "updatedAt": "2026年6月14日"
+    },
+    {
+      "id": "traffic-panic",
+      "name": "こーつー整理",
+      "packageName": "trafficPanic.ggg.jp.net",
+      "status": "内部テスト / 審査中",
+      "published": false,
+      "updatedAt": "2026年6月12日"
+    },
+    {
+      "id": "magic-battle",
+      "name": "まほバトル",
+      "packageName": "appmagicbattle.ggg.jp.net",
+      "status": "未公開 / 内部テスト / 審査中",
+      "published": false,
+      "updatedAt": "2026年6月10日"
+    },
+    {
+      "id": "mokoshiba",
+      "name": "モコしば！",
+      "packageName": "game_mokoshiba.ggg.jp.net",
+      "status": "未公開 / 内部テスト / 審査中",
+      "published": false,
+      "updatedAt": "2026年6月10日"
+    }
+  ]
+}

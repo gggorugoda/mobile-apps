@@ -3,3 +3,6 @@ assets/**/*.jpg
 !assets/team-logo.png
 !assets/kuma-river/*.jpg
 !assets/kuma-river/screenshots/*.jpg
+!assets/traffic-panic/*.png
+!assets/traffic-panic/*.jpg
+!assets/traffic-panic/screenshots/*.jpg

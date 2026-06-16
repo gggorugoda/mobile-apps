@@ -5,12 +5,12 @@ gggorugoda の公開済みモバイルアプリを掲載する GitHub Pages 用L
 ## 公開対象
 
 `apps.json` の `published: true` のアプリだけが `index.html` に表示されます。
-2026年6月16日時点では、Play Console のアプリ一覧で `製品版` になっている `くまリバー` と `こーつー整理` を掲載しています。
+2026年6月16日時点では、Play Console のアプリ一覧で `製品版` になっている `くまリバー` のみを掲載しています。
 
 ## 更新手順
 
 1. Play Console のアプリ一覧で対象5アプリのステータスを確認する。
-2. 新しく `製品版` になったアプリがあれば、`apps.json` の該当アプリを `published: true` にする。
+2. Play Console の `アプリのステータス` が `製品版` のアプリだけを `published: true` にする。
 3. 画像素材がある場合は `assets/<app-id>/` に配置し、`icon` / `feature` / `screenshots` を更新する。
 4. ルートの `index.html` を GitHub Pages で公開する。
 

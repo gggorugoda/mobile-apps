@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-06-16T20:43:25+09:00",
+  "lastCheckedAt": "2026-06-17T09:31:00+09:00",
   "source": "Google Play Console app list",
   "apps": [
     {
@@ -39,8 +39,8 @@
       "id": "traffic-panic",
       "name": "こーつー整理",
       "packageName": "trafficPanic.ggg.jp.net",
-      "status": "内部テスト / 審査中",
-      "published": false,
+      "status": "製品版",
+      "published": true,
       "updatedAt": "2026年6月12日",
       "tagline": "1本は車、2本は歩行者、3本は救急車。指の本数でさばく交通整理ゲーム。",
       "description": "「こーつー整理」は、画面に出る本数を見てタップするシンプルな交通整理ゲームです。車は1本、歩行者は2本、救急車は3本タップまたは2本上スワイプ。交差点がにぎやかになるほど、見分ける力と反応のテンポが試されます。",

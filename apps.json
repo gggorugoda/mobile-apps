@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-06-18T09:19:25+09:00",
+  "lastCheckedAt": "2026-06-18T23:45:01+09:00",
   "source": "Google Play Console app list",
   "apps": [
     {
@@ -64,9 +64,26 @@
       "id": "magic-battle",
       "name": "まほバトル",
       "packageName": "appmagicbattle.ggg.jp.net",
-      "status": "未公開 / 内部テスト / 審査中",
-      "published": false,
-      "updatedAt": "2026年6月10日"
+      "status": "製品版",
+      "published": true,
+      "updatedAt": "2026年6月10日",
+      "tagline": "指の数で魔法を選び、リズムに乗って敵を迎え撃つ。",
+      "description": "迫ってくる敵の属性を見分けて、指の数で魔法を切り替えるリズム魔法アクションゲームです。火、水、雷、バリアをテンポよく使い分け、魔法学校から魔王の祭壇まで広がるステージを攻略します。",
+      "category": "リズム魔法アクション",
+      "icon": "assets/magic-battle/icon.png",
+      "feature": "assets/magic-battle/feature.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=appmagicbattle.ggg.jp.net",
+      "screenshots": [
+        "assets/magic-battle/screenshots/01-title.jpg",
+        "assets/magic-battle/screenshots/02-stage-select.jpg",
+        "assets/magic-battle/screenshots/03-stage1-battle.jpg",
+        "assets/magic-battle/screenshots/04-spell-effects.jpg"
+      ],
+      "highlights": [
+        "指の数で魔法を選ぶシンプル操作",
+        "属性に合わせて変わる魔法エフェクト",
+        "コンボをつなぐリズムゲーム風バトル"
+      ]
     },
     {
       "id": "mokoshiba",

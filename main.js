@@ -6,23 +6,33 @@ async function loadApps() {
   return response.json();
 }
 
-function createImage(src, alt, className) {
+function createImage(src, alt, className, loading = "lazy") {
   const image = document.createElement("img");
   image.src = src;
   image.alt = alt;
-  image.loading = "lazy";
+  image.loading = loading;
   if (className) image.className = className;
   return image;
 }
 
-function renderHero(app) {
+function renderHero(apps) {
   const hero = document.querySelector("#hero-media");
   hero.textContent = "";
-  hero.append(
-    createImage(app.feature, `${app.name} のメインビジュアル`, "hero-feature"),
-    createImage(app.icon, `${app.name} のアプリアイコン`, "hero-icon"),
-    createImage(app.screenshots[0], `${app.name} のゲーム画面`, "hero-phone")
-  );
+  const heroApps = apps.slice(0, 4);
+
+  for (const [index, app] of heroApps.entries()) {
+    const tile = document.createElement("figure");
+    tile.className = `hero-tile hero-tile-${index + 1}`;
+    tile.append(createImage(app.feature, `${app.name} のメインビジュアル`, "hero-feature", "eager"));
+
+    const caption = document.createElement("figcaption");
+    caption.append(
+      createImage(app.icon, `${app.name} アイコン`, "hero-app-icon"),
+      document.createTextNode(app.name)
+    );
+    tile.append(caption);
+    hero.append(tile);
+  }
 }
 
 function renderApp(app) {
@@ -86,7 +96,7 @@ loadApps()
       return;
     }
 
-    renderHero(publishedApps[0]);
+    renderHero(publishedApps);
     container.append(...publishedApps.map(renderApp));
   })
   .catch(() => {

@@ -9,3 +9,6 @@ assets/**/*.jpg
 !assets/mokoshiba/*.png
 !assets/mokoshiba/*.jpg
 !assets/mokoshiba/screenshots/*.jpg
+!assets/magic-battle/*.png
+!assets/magic-battle/*.jpg
+!assets/magic-battle/screenshots/*.jpg

@@ -6,3 +6,6 @@ assets/**/*.jpg
 !assets/traffic-panic/*.png
 !assets/traffic-panic/*.jpg
 !assets/traffic-panic/screenshots/*.jpg
+!assets/mokoshiba/*.png
+!assets/mokoshiba/*.jpg
+!assets/mokoshiba/screenshots/*.jpg

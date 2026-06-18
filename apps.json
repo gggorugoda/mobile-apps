@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-06-17T09:31:00+09:00",
+  "lastCheckedAt": "2026-06-18T09:19:25+09:00",
   "source": "Google Play Console app list",
   "apps": [
     {
@@ -72,9 +72,26 @@
       "id": "mokoshiba",
       "name": "モコしば！",
       "packageName": "game_mokoshiba.ggg.jp.net",
-      "status": "未公開 / 内部テスト / 審査中",
-      "published": false,
-      "updatedAt": "2026年6月10日"
+      "status": "製品版",
+      "published": true,
+      "updatedAt": "2026年6月10日",
+      "tagline": "小・中・大ジャンプを使い分けて、モコしばのおさんぽコースを走り抜けよう。",
+      "description": "羊スーツのしば犬「もこしば」が、いろいろな風景のおさんぽコースを走り抜けるジャンプゲームです。岩、流木、鳥、こうもり、伸びる豆の木などをタイミングよくよけて、全10ステージのゴールを目指します。",
+      "category": "ジャンプゲーム",
+      "icon": "assets/mokoshiba/icon.png",
+      "feature": "assets/mokoshiba/feature.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=game_mokoshiba.ggg.jp.net",
+      "screenshots": [
+        "assets/mokoshiba/screenshots/01-title.jpg",
+        "assets/mokoshiba/screenshots/02-small-jump.jpg",
+        "assets/mokoshiba/screenshots/03-medium-jump.jpg",
+        "assets/mokoshiba/screenshots/04-large-jump.jpg"
+      ],
+      "highlights": [
+        "小・中・大ジャンプを使い分けるシンプル操作",
+        "背景やBGMが変わる全10ステージ",
+        "ゴールでは友だちのアルパカが待っている"
+      ]
     }
   ]
 }

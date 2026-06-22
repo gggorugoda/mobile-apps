@@ -3,6 +3,9 @@ assets/**/*.jpg
 !assets/team-logo.png
 !assets/kuma-river/*.jpg
 !assets/kuma-river/screenshots/*.jpg
+!assets/otedama-master/*.png
+!assets/otedama-master/*.jpg
+!assets/otedama-master/screenshots/*.jpg
 !assets/traffic-panic/*.png
 !assets/traffic-panic/*.jpg
 !assets/traffic-panic/screenshots/*.jpg

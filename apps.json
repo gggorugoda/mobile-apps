@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-06-18T23:45:01+09:00",
+  "lastCheckedAt": "2026-06-22T23:16:36+09:00",
   "source": "Google Play Console app list",
   "apps": [
     {
@@ -31,9 +31,26 @@
       "id": "otedama-master",
       "name": "お手玉マスター",
       "packageName": "otedamamaster.ggg.jp.net",
-      "status": "未公開 / 内部テスト / 審査中",
-      "published": false,
-      "updatedAt": "2026年6月14日"
+      "status": "製品版",
+      "published": true,
+      "updatedAt": "2026年6月14日",
+      "tagline": "中世の町でハッシュとお手玉修行。スワイプで渡して投げる成長型ゲーム。",
+      "description": "西洋中世の町を舞台に、大道芸見習いのハッシュがお手玉の腕をみがいていくカジュアルゲームです。右手の玉を左手へ渡し、タイミングよく上へ投げて、空中に舞うObjectをつなぎ続けましょう。",
+      "category": "カジュアルゲーム",
+      "icon": "assets/otedama-master/icon.png",
+      "feature": "assets/otedama-master/feature.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=otedamamaster.ggg.jp.net",
+      "screenshots": [
+        "assets/otedama-master/screenshots/01-stage1-air.jpg",
+        "assets/otedama-master/screenshots/02-stage3-start.jpg",
+        "assets/otedama-master/screenshots/03-stage3-air.jpg",
+        "assets/otedama-master/screenshots/04-stage5-start.jpg"
+      ],
+      "highlights": [
+        "片手で遊べるスワイプ操作",
+        "Object数が増えていくステージ制",
+        "成長にあわせて変化する称号と衣装"
+      ]
     },
     {
       "id": "traffic-panic",
